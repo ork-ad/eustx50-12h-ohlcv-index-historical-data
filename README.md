@@ -1,6 +1,6 @@
 # EUSTX50 12h OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-391_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-7_044_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full EUSTX50 dataset on ork.ad**](https://ork.ad/)
 
@@ -24,11 +24,11 @@
 - **Ultra high-quality 12h OHLCV** for **Euro Stoxx 50** (Stock index)
 - **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`12h`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **391** `12h` rows in the full archive
+- **Free evaluation sample** on GitHub (`12h`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **7,044** `12h` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `12h` sample updated in sync
 
-> **Sample on GitHub** · `EUSTX50_12h.csv` (377 rows, `2025-10-02` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **391** `12h` rows (~0.02 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2025-09-23` → `2026-07-02`.
+> **Sample on GitHub** · `EUSTX50_12h.csv` (375 rows, `2025-10-03` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **7,044** `12h` rows (~0.39 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2012-08-27` → `2026-07-03`.
 
 ## Download sample
 
@@ -44,9 +44,9 @@ Interactive chart & stats: **[https://ork-ad.github.io/eustx50-12h-ohlcv-index-h
 |---|--:|---|
 | Instrument | Euro Stoxx 50 · Stock index | Euro Stoxx 50 · Stock index |
 | Timeframes | `12h` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 12h rows | 377 | **391** |
-| Size | 0.02 MB | ~0.02 MB |
-| Period | `2025-10-02` → `2026-07-02` | `2025-09-23` → `2026-07-02` |
+| 12h rows | 375 | **7,044** |
+| Size | 0.02 MB | ~0.39 MB |
+| Period | `2025-10-03` → `2026-07-03` | `2012-08-27` → `2026-07-03` |
 | File | `EUSTX50_12h.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`EUSTX50_12h.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2025-10-02T12:00:00Z | 5672.287 | 5681.287 | 5646.766 | 5662.36 | 4678.0 |
-| 2025-10-03T00:00:00Z | 5662.36 | 5674.797 | 5647.776 | 5649.276 | 3675.0 |
-| 2025-10-03T12:00:00Z | 5649.276 | 5665.287 | 5647.296 | 5660.337 | 4020.0 |
-| 2025-10-06T00:00:00Z | 5660.337 | 5663.687 | 5611.666 | 5653.687 | 7071.0 |
-| 2025-10-06T12:00:00Z | 5653.687 | 5655.667 | 5630.686 | 5640.726 | 2795.0 |
+| 2025-10-03T12:00:00Z | 5656.25 | 5665.74 | 5648.22 | 5660.79 | 3211.0 |
+| 2025-10-06T00:00:00Z | 5660.79 | 5664.14 | 5612.11 | 5643.11 | 8044.0 |
+| 2025-10-06T12:00:00Z | 5643.11 | 5649.13 | 5631.13 | 5641.17 | 1822.0 |
+| 2025-10-07T00:00:00Z | 5641.17 | 5650.54 | 5618.52 | 5641.52 | 3741.0 |
+| 2025-10-07T12:00:00Z | 5641.52 | 5641.52 | 5608.52 | 5611.59 | 3292.0 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-06-30T12:00:00Z | 6319.86 | 6348.84 | 6294.84 | 6343.4 | 6204.0 |
-| 2026-07-01T00:00:00Z | 6343.4 | 6343.4 | 6299.79 | 6300.8 | 5911.0 |
-| 2026-07-01T12:00:00Z | 6300.8 | 6308.8 | 6274.29 | 6291.36 | 9159.0 |
-| 2026-07-02T00:00:00Z | 6291.36 | 6337.44 | 6268.92 | 6336.44 | 7266.0 |
+| 2026-07-01T12:00:00Z | 6300.42 | 6305.44 | 6277.42 | 6291.99 | 4735.0 |
+| 2026-07-02T00:00:00Z | 6291.99 | 6403.58 | 6270.05 | 6394.07 | 11607.0 |
+| 2026-07-02T12:00:00Z | 6394.07 | 6396.07 | 6335.07 | 6368.12 | 11661.0 |
+| 2026-07-03T00:00:00Z | 6368.12 | 6420.17 | 6368.12 | 6419.16 | 6516.0 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **EUSTX50** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **391** rows at `12h`, plus all other timeframes in the same ZIP.
+The complete **EUSTX50** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **7,044** rows at `12h`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full EUSTX50 dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · EUSTX50 12h OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-04 UTC*
+*GetData · EUSTX50 12h OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
